@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+STATIC_URL = '/static/'
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
     'django.contrib.admin',
@@ -121,4 +122,3 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
-STATIC_URL = '/static/'
