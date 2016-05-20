@@ -10,7 +10,7 @@ NOSE_ARGS = [
     '--with-coverage',
     '--cover-xml',
     '--cover-html',
-    '--cover-package=polls', #テストを行うapp名を指定
+    '--cover-package=polls',
 ]
 
 DATABASES = {
