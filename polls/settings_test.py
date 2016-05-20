@@ -1,4 +1,3 @@
-# -*- coding: shift_jis -*-
 from settings import *
 import os
 
