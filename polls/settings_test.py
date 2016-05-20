@@ -1,5 +1,5 @@
 # -*- coding: shift_jis -*-
-from polls.settings import *
+from settings import *
 import os
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
