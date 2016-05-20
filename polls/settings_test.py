@@ -2,7 +2,6 @@ from polls.settings import *
 import os
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
-#カバレッジレポート(html)を出力するフォルダを指定
 COVERAGE_REPORT_HTML_OUTPUT_DIR = '.cover'
 
 # テスト実行時の引数の設定(noseの引数)
