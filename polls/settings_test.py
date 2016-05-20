@@ -1,20 +1,21 @@
+# -*- coding: utf-8 -*-
 from settings import *
 import os
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
-#ƒJƒoƒŒƒbƒWƒŒƒ|[ƒg(html)‚ğo—Í‚·‚éƒtƒHƒ‹ƒ_‚ğw’è
+#ã‚«ãƒãƒ¬ãƒƒã‚¸ãƒ¬ãƒãƒ¼ãƒˆ(html)ã‚’å‡ºåŠ›ã™ã‚‹ãƒ•ã‚©ãƒ«ãƒ€ã‚’æŒ‡å®š
 COVERAGE_REPORT_HTML_OUTPUT_DIR = '.cover'
 
-# ƒeƒXƒgÀs‚Ìˆø”‚Ìİ’è(nose‚Ìˆø”)
+# ãƒ†ã‚¹ãƒˆå®Ÿè¡Œæ™‚ã®å¼•æ•°ã®è¨­å®š(noseã®å¼•æ•°)
 NOSE_ARGS = [
     '--with-xunit',
     '--with-coverage',
     '--cover-xml',
     '--cover-html',
-    '--cover-package=polls', #ƒeƒXƒg‚ğs‚¤app–¼‚ğw’è
+    '--cover-package=polls', #ãƒ†ã‚¹ãƒˆã‚’è¡Œã†appåã‚’æŒ‡å®š
 ]
 
-#ƒeƒXƒg—p‚ÌBŠÂ‹«‚Ìİ’è(settings.py‚ÌDBŠÂ‹«‚Æ•ª‚¯‚Ä‚¢‚é)
+#ãƒ†ã‚¹ãƒˆç”¨ã®Bç’°å¢ƒã®è¨­å®š(settings.pyã®DBç’°å¢ƒã¨åˆ†ã‘ã¦ã„ã‚‹)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
